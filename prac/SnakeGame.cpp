@@ -50,7 +50,7 @@ void SnakeGame::UpdateGame() {
     snake->Update();
     while(obm->get_gate_size()!=2){
         int x,y,num;
-        for(auto &i:obm->)
+        //for(auto &i:obm->)
         num=rand()%d.size();
         if(d[num]->can()){
             Gate *gate = new Gate();
